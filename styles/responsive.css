@@ -1,0 +1,13 @@
+/* Responsive media query for Mobile Phone  */
+@media screen and (max-width: 576px) {
+    .nav-container,
+    .nav-options
+    {
+        flex-direction: column;
+        box-shadow: none
+    }
+}
+/* Responsive media query for Tablet  */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}

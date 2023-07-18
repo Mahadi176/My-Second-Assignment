@@ -1,0 +1,53 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: content-box;
+}
+.text-primary-one{
+    color: #F948B2 ;
+}
+/* nav-section  */
+.nav-container{
+    min-height: 150px;
+    width:auto ;
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
+}
+.nav-title{
+        display: flex;
+        font-size: 30px;
+        font-weight: 700;
+        gap: 15px;
+        align-items: center;
+}
+.nav-title img{
+    width: 75px;
+    height: 35px;
+}
+.nav-options{
+    display: flex;
+    color: #3C354F; 
+    gap: 18px;
+    align-items: center;
+} 
+.nav-options a{
+    text-decoration: none;
+    color: #3C354F; 
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+}
