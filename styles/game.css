@@ -32,8 +32,8 @@
 .btn-primary-two{
     width: 140px;
     height: 50px;
-    color: #FFF;
-    background-color: #4EC5F7;
+    color: #ffffff;
+    background-color: #2197ce;
     align-items: center;
     font-size: 16px;
     border: none;
@@ -150,13 +150,11 @@
     padding: 30px
 }
 .section-three-title{
-    margin-left: ;
     position: relative;
     margin-bottom: -10px;
 }
 .section-description{
     align-items: center;
-    padding: ;
 }
 .section-three-title{
     font-size: 48px;
@@ -173,4 +171,34 @@
 .image-two{
    margin-top: -260px ;
    margin-left: -150px;
+}
+/* section-four  */
+.section-four{
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       padding: 120px;
+       margin-bottom: 100px;
+      
+       
+      
+        
+}
+.btn-games{
+    display: flex;
+    width: 270px ;
+    height:80px;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    background: #8d8585;
+    border: none;
+    margin-bottom: 50px;
+}
+.logo{
+         max-width: ;
 }

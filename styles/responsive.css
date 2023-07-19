@@ -50,9 +50,26 @@
     margin-bottom: -280px;
     margin-left: 175px;
    }
+   .section-four{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+   }
+   .section-four{
+    gap: 10px;
+   }
+   .btn-games{
+        width:90px;
+        height: 30px;
+        font-size: 10px;
+        
+      }
+      .logo {
+        max-width: 15px;
+      }
 }
 /* Responsive media query for Tablet  */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px){
+
     .section-one{
         flex-direction: column-reverse;
             
@@ -77,5 +94,5 @@
     }
     .section-three{
         flex-direction: column ;
-    }
+}
 }
