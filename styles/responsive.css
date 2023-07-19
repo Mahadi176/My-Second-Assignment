@@ -94,5 +94,28 @@
     }
     .section-three{
         flex-direction: column ;
+        flex-wrap: nowrap;
+}
+.image-one img{
+    position: static;
+}
+.image-two img{
+    position: static;
+    margin-left: 100px ;
+    margin-bottom: 200px;
+}
+.section-four{
+    display: grid;
+    grid-template-columns: repeat( 3,1fr);
+    margin-top: -400px;
+}
+.btn-games{
+    width: 110px;
+    height: 40px;
+    font-size: 12px;
+
+}
+.logo{
+  width: 20px;
 }
 }

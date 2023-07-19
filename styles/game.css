@@ -141,6 +141,7 @@
   display: flex;
   justify-content: space-evenly ;
 }
+
 /* section-three  */
 .section-three{
     display: flex;
@@ -163,7 +164,7 @@
     
 }
 .image-container-three{
-
+   flex-wrap: wrap;
 }
 .image-one{
     margin-top: 150px;
@@ -178,11 +179,12 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
        padding: 120px;
-       margin-bottom: 100px;
-      
-       
-      
-        
+       margin-bottom: 100px;    
+}
+.btn-games:hover{
+        color: #F948B2;
+        border: 3px solid #F948B2 ;
+
 }
 .btn-games{
     display: flex;
@@ -195,10 +197,59 @@
     font-size: 20px;
     font-weight: 600;
     border-radius: 50px;
-    background: #8d8585;
+    background: #f1eeee;
     border: none;
     margin-bottom: 50px;
 }
-.logo{
-         max-width: ;
+/* footer-section */
+.footer-starts{
+    text-align: center;
+}
+.footer-title{
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    gap: 15px;
+    align-items: center;
+    color: #FFF;
+}
+.footer-section{
+    background-color: #0B0223;
+       text-align: center;
+        position: relative;
+    }
+    
+
+.footer-info{
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    padding: 10px;
+    
+    gap: 60px;
+    color:#FFF;
+}
+.footer-image{
+  align-items: center;
+  justify-content: space-between;
+
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
+.footer-end{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
