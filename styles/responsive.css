@@ -66,6 +66,63 @@
       .logo {
         max-width: 15px;
       }
+      .footer-section{
+        background-color: #0B0223;
+           text-align: center;
+           height: 100%;
+           width: 100%;
+            /* position: relative; */
+        }
+        
+    
+        .footer-title{
+            width: 50%;
+        }
+    .footer-info{
+        align-items: center;
+        
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        padding: 10px;
+        gap: 60px;
+        color:#FFF;
+        width: 50%;
+        /* margin: auto; */
+        margin-left: 40px;
+    }
+    .footer-image{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        gap: 20px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    /* .footer-image img{
+       margin-left: 20px;
+    display: inline-block;
+    } */
+    .footer-description{
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 16px;
+        font-weight: 500;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        margin-top: 10px;
+    
+    }
+    .footer-end{
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
 }
 /* Responsive media query for Tablet  */
 @media screen and (min-width: 768px) and (max-width: 992px){
